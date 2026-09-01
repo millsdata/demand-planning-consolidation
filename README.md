@@ -6,12 +6,13 @@ The original version of this ran in Alteryx against real company data, so it isn
 
 ## The problem
 
-21 planners, 21 spreadsheets, no shared format:
+20 planners, 20 spreadsheets, only partially shared format:
 
 - Column order differs from file to file
 - Dates show up in at least three different formats
 - Some rows are missing forecast values
 - A handful of duplicate submissions show up every cycle
+- Spelling errors / mismatches (Brazil - Brasil etc)
 
 Manually reconciling this by hand was the previous process. Automating it saved an estimated 40+ hours of manual data entry per quarter.
 
