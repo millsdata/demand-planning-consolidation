@@ -18,7 +18,7 @@ Manually reconciling this by hand was the previous process. Automating it saved 
 
 ## What's here
 
-- `generate_sample_data.py` — generates 21 intentionally messy CSVs that mimic the real submission problem (synthetic data only)
+- `generate_sample_data.py` — generates 20 intentionally messy CSVs that mimic the real submission problem (synthetic data only)
 - `consolidate.py` — standardizes columns, parses mixed date formats, flags missing values, drops duplicates, and writes one clean dataset
 
 ## Running it
@@ -32,12 +32,12 @@ python consolidate.py            # writes ./consolidated_forecast.csv
 Example output:
 
 ```
-Consolidated 21 planner submissions -> consolidated_forecast.csv
-  Rows in:              513
+Consolidated 20 planner submissions -> consolidated_forecast.csv
+  Rows in:              485
   Duplicate rows dropped: 11
-  Rows with missing forecast_units: 53
+  Rows with missing forecast_units: 50
   Rows with unparseable submit_date: 0
-  Final row count:      502
+  Final row count:      474
 ```
 
 ## Tools

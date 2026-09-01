@@ -20,7 +20,7 @@ import pandas as pd
 random.seed(42)
 
 OUTPUT_DIR = "raw_submissions"
-NUM_PLANNERS = 21
+NUM_PLANNERS = 20
 REGIONS = [
     "North", "South", "East", "West", "Central", "Pacific", "Mountain",
     "Gulf", "Great Lakes", "Northeast", "Southeast", "Southwest",
