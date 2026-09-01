@@ -1,0 +1,4 @@
+raw_submissions/
+consolidated_forecast.csv
+__pycache__/
+*.pyc
